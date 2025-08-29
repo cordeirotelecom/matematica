@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Clock, Star, Users, ArrowRight, Play } from 'lucide-react';
+import { BookOpen, Star, ArrowRight, Play } from 'lucide-react';
 
 const LessonsPage = () => {
   const categories = [
