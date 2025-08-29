@@ -17,13 +17,13 @@ const Header = () => {
               <BookOpen className="h-5 w-5" />
               <span>Lições</span>
             </Link>
-            <Link href="/history" className="flex items-center space-x-1 hover:text-blue-200 transition-colors">
-              <History className="h-5 w-5" />
-              <span>História</span>
-            </Link>
             <Link href="/exercises" className="flex items-center space-x-1 hover:text-blue-200 transition-colors">
               <Calculator className="h-5 w-5" />
               <span>Exercícios</span>
+            </Link>
+            <Link href="/about" className="flex items-center space-x-1 hover:text-blue-200 transition-colors">
+              <History className="h-5 w-5" />
+              <span>Sobre</span>
             </Link>
             <Link href="/achievements" className="flex items-center space-x-1 hover:text-blue-200 transition-colors">
               <Trophy className="h-5 w-5" />
