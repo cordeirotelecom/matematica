@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, MessageSquare, Trophy, Target, Award, Heart } from 'lucide-react';
+import { Users, MessageSquare, Trophy, Target, Heart } from 'lucide-react';
 
 const CommunityGameSection = () => {
   const achievements = [

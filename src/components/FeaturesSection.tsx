@@ -1,37 +1,37 @@
 import React from 'react';
-import { Brain, Zap, Target, Users, Award, Sparkles } from 'lucide-react';
+import { Brain, BookOpen, Target, Users, PieChart, Clock } from 'lucide-react';
 
 const FeaturesSection = () => {
   const features = [
     {
       icon: Brain,
-      title: "Aprendizado Inteligente",
-      description: "Algoritmos adaptativos que se ajustam ao seu ritmo de aprendizado e identificam suas dificuldades."
+      title: "Metodologia Adaptativa",
+      description: "Sistema que se adapta ao seu ritmo e estilo de aprendizado, identificando pontos fortes e áreas de melhoria."
     },
     {
-      icon: Zap,
-      title: "Visualizações Interativas",
-      description: "Gráficos 3D, animações e simulações que tornam conceitos abstratos mais tangíveis."
+      icon: BookOpen,
+      title: "Conteúdo Estruturado",
+      description: "Lições organizadas de forma progressiva, do básico ao avançado, com explicações claras e exemplos práticos."
     },
     {
       icon: Target,
-      title: "Exercícios Direcionados",
-      description: "Problemas personalizados baseados no seu nível e objetivos de aprendizado."
+      title: "Exercícios Focados",
+      description: "Problemas direcionados para reforçar o aprendizado e identificar dificuldades específicas."
+    },
+    {
+      icon: PieChart,
+      title: "Acompanhamento Detalhado",
+      description: "Relatórios de progresso que mostram sua evolução e áreas que precisam de mais atenção."
     },
     {
       icon: Users,
-      title: "Comunidade Ativa",
-      description: "Conecte-se com outros estudantes, tire dúvidas e participe de discussões."
+      title: "Suporte Educacional",
+      description: "Comunidade de estudantes e professores para tirar dúvidas e compartilhar conhecimento."
     },
     {
-      icon: Award,
-      title: "Sistema de Conquistas",
-      description: "Ganhe pontos, medalhas e certificados conforme progride em seus estudos."
-    },
-    {
-      icon: Sparkles,
-      title: "Conteúdo Atualizado",
-      description: "Material sempre atualizado com as melhores práticas pedagógicas modernas."
+      icon: Clock,
+      title: "Estudo Flexível",
+      description: "Estude no seu próprio ritmo, a qualquer hora e lugar, com acesso total ao conteúdo."
     }
   ];
 
@@ -39,12 +39,12 @@ const FeaturesSection = () => {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Por que escolher o MathLearn?
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            Recursos da Plataforma
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nossa plataforma oferece uma experiência de aprendizado única, 
-            combinando tecnologia avançada com métodos pedagógicos comprovados.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Ferramentas e recursos desenvolvidos para otimizar seu aprendizado 
+            e tornar o estudo de matemática mais eficiente.
           </p>
         </div>
 
