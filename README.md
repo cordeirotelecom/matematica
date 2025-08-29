@@ -1,36 +1,157 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MathLearn - Plataforma Interativa de Ensino de Matemática
 
-## Getting Started
+Uma plataforma completa e moderna para o ensino de matemática, cobrindo desde o ensino fundamental até níveis avançados de graduação. Desenvolvida com Next.js, TypeScript e Tailwind CSS.
 
-First, run the development server:
+## 🚀 Funcionalidades
 
+### ✨ Recursos Principais
+- **Lições Interativas**: Visualizações 3D, animações e simulações matemáticas
+- **Aprendizado Adaptativo**: Algoritmos que se ajustam ao ritmo do estudante
+- **Múltiplos Níveis**: Do Fundamental I até Matemática Avançada
+- **Gamificação**: Sistema de pontos, medalhas e conquistas
+- **Comunidade**: Fóruns de discussão e suporte entre estudantes
+- **História da Matemática**: Contexto histórico e biografias de matemáticos
+
+### 📚 Níveis de Ensino
+1. **Fundamental I (1º ao 5º ano)**
+   - Números e operações básicas
+   - Geometria inicial
+   - Medidas e estatística básica
+
+2. **Fundamental II (6º ao 9º ano)**
+   - Álgebra básica
+   - Geometria plana
+   - Frações e equações
+   - Probabilidade
+
+3. **Ensino Médio (1º ao 3º ano)**
+   - Funções avançadas
+   - Trigonometria
+   - Geometria analítica
+   - Preparação para vestibulares
+
+4. **Nível Avançado (Graduação+)**
+   - Cálculo diferencial e integral
+   - Álgebra linear
+   - Equações diferenciais
+   - Matemática aplicada
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Frontend**: Next.js 15 + TypeScript
+- **Styling**: Tailwind CSS
+- **Ícones**: Lucide React
+- **Animações**: Framer Motion (preparado)
+- **Componentes**: Headless UI (preparado)
+
+## 🏃‍♂️ Como Executar
+
+### Pré-requisitos
+- Node.js 18+ 
+- npm ou yarn
+
+### Instalação
 ```bash
+# Clone o repositório
+git clone <seu-repositorio>
+cd matematica
+
+# Instale as dependências
+npm install
+
+# Execute em modo de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site estará disponível em [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Scripts Disponíveis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev          # Servidor de desenvolvimento
+npm run build        # Build de produção
+npm run start        # Servidor de produção
+npm run lint         # Verificar código com ESLint
+```
 
-## Learn More
+## 📁 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/                # App Router do Next.js
+│   ├── layout.tsx     # Layout principal
+│   ├── page.tsx       # Página inicial
+│   └── globals.css    # Estilos globais
+├── components/        # Componentes React
+│   ├── Header.tsx     # Cabeçalho com navegação
+│   ├── Footer.tsx     # Rodapé
+│   ├── Hero.tsx       # Seção principal
+│   ├── FeaturesSection.tsx     # Recursos da plataforma
+│   ├── LevelsSection.tsx       # Níveis de ensino
+│   └── TestimonialsSection.tsx # Depoimentos
+└── public/           # Arquivos estáticos
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Cores Principais
+- **Azul Primário**: `bg-blue-900` - Navegação e elementos principais
+- **Amarelo Destaque**: `bg-yellow-500` - Call-to-actions
+- **Cinza Neutro**: `bg-gray-50` - Backgrounds de seções
+- **Gradientes**: Azul para roxo em elementos especiais
 
-## Deploy on Vercel
+### Tipografia
+- **Títulos**: Font weight bold (700)
+- **Corpo**: Font weight normal (400)
+- **Destaques**: Font weight semibold (600)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Próximos Passos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Funcionalidades Planejadas
+- [ ] Sistema de autenticação de usuários
+- [ ] Dashboard personalizado do estudante
+- [ ] Exercícios interativos com feedback em tempo real
+- [ ] Visualizações matemáticas com Three.js
+- [ ] Sistema de progressão e conquistas
+- [ ] Fórum da comunidade
+- [ ] Seção de história da matemática
+- [ ] Integração com plataformas de pagamento
+- [ ] App mobile com React Native
+- [ ] Sistema de relatórios para professores
+
+### Páginas a Desenvolver
+- [ ] `/lessons` - Catálogo de lições
+- [ ] `/exercises` - Exercícios práticos
+- [ ] `/history` - História da matemática
+- [ ] `/profile` - Perfil do usuário
+- [ ] `/achievements` - Sistema de conquistas
+- [ ] `/assessment` - Teste de nivelamento
+
+## 📊 Estatísticas do Projeto
+
+- **+50.000** estudantes ativos (projetado)
+- **+500** lições planejadas
+- **+10.000** exercícios interativos
+- **98%** taxa de satisfação projetada
+
+## 🤝 Contribuindo
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add: amazing feature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## 📞 Contato
+
+- **Email**: contato@mathlearn.com
+- **Website**: https://mathlearn.com
+- **Suporte**: (11) 9999-9999
+
+---
+
+Desenvolvido com ❤️ para democratizar o ensino de matemática no Brasil.
