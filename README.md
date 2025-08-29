@@ -1,157 +1,86 @@
-# MathLearn - Plataforma Interativa de Ensino de Matemática
+# 🧮 MathLearn - Plataforma Interativa de Matemática
 
-Uma plataforma completa e moderna para o ensino de matemática, cobrindo desde o ensino fundamental até níveis avançados de graduação. Desenvolvida com Next.js, TypeScript e Tailwind CSS.
+Uma plataforma educacional completa para ensino de matemática, cobrindo do Fundamental ao Avançado.
 
-## 🚀 Funcionalidades
+## 🌟 **Novo Conteúdo Educacional Avançado!**
 
-### ✨ Recursos Principais
-- **Lições Interativas**: Visualizações 3D, animações e simulações matemáticas
-- **Aprendizado Adaptativo**: Algoritmos que se ajustam ao ritmo do estudante
-- **Múltiplos Níveis**: Do Fundamental I até Matemática Avançada
-- **Gamificação**: Sistema de pontos, medalhas e conquistas
-- **Comunidade**: Fóruns de discussão e suporte entre estudantes
-- **História da Matemática**: Contexto histórico e biografias de matemáticos
+### ✨ **4 Seções Interativas Completas:**
 
-### 📚 Níveis de Ensino
-1. **Fundamental I (1º ao 5º ano)**
-   - Números e operações básicas
-   - Geometria inicial
-   - Medidas e estatística básica
+1. **📚 Conceitos Explicados Passo a Passo**
+   - **4 conceitos fundamentais**: Frações, Equações, Porcentagem, Geometria
+   - **Explicações detalhadas** em 4 passos numerados
+   - **4 abas por conceito**: Passo a Passo, História, Aplicações, Exercícios
+   - **Visualizações** com emojis e analogias práticas
 
-2. **Fundamental II (6º ao 9º ano)**
-   - Álgebra básica
-   - Geometria plana
-   - Frações e equações
-   - Probabilidade
+2. **🌍 Aplicações Práticas da Matemática**
+   - **6 áreas matemáticas** com exemplos do mundo real
+   - **Interface com abas**: Exemplos, História, Indústrias
+   - **Cases reais**: GPS, medicina, criptografia, economia
 
-3. **Ensino Médio (1º ao 3º ano)**
-   - Funções avançadas
-   - Trigonometria
-   - Geometria analítica
-   - Preparação para vestibulares
+3. **💼 Carreiras que Usam Matemática**
+   - **5 profissões detalhadas**: Cientista de Dados, Analista Quantitativo, etc.
+   - **Informações completas**: salários (R$ 80k-500k), crescimento, habilidades
+   - **Cases reais**: Como Netflix usa estatística, carros autônomos
 
-4. **Nível Avançado (Graduação+)**
-   - Cálculo diferencial e integral
-   - Álgebra linear
-   - Equações diferenciais
-   - Matemática aplicada
+4. **🏛️ História da Matemática Timeline**
+   - **Timeline interativo** desde 3000 AC até 1940
+   - **Marcos históricos** com detalhes expansíveis
+   - **Conexão** entre descobertas antigas e aplicações modernas
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 **Funcionalidades**
 
-- **Frontend**: Next.js 15 + TypeScript
-- **Styling**: Tailwind CSS
-- **Ícones**: Lucide React
-- **Animações**: Framer Motion (preparado)
-- **Componentes**: Headless UI (preparado)
+- ✅ **Layout Responsivo** - Funciona em todos os dispositivos
+- ✅ **Sistema de Autenticação** - Login/cadastro com localStorage
+- ✅ **Calculadora Interativa** - Ferramenta de cálculo integrada
+- ✅ **Exercícios Práticos** - Problemas com soluções detalhadas
+- ✅ **Design Profissional** - Interface moderna e educativa
+- ✅ **Conteúdo Rico** - Explicações, história e aplicações práticas
 
-## 🏃‍♂️ Como Executar
+## � **Níveis de Ensino**
 
-### Pré-requisitos
-- Node.js 18+ 
-- npm ou yarn
+- **Fundamental I** (1º ao 5º ano) - 45 lições
+- **Fundamental II** (6º ao 9º ano) - 60 lições  
+- **Ensino Médio** (1º ao 3º ano) - 75 lições
+- **Ensino Superior** - Matemática avançada
 
-### Instalação
-```bash
-# Clone o repositório
-git clone <seu-repositorio>
-cd matematica
+## 💡 **Tecnologias**
 
-# Instale as dependências
-npm install
+- **Next.js 15** - Framework React moderno
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Estilização utilitária
+- **Lucide React** - Ícones modernos
+- **Static Export** - Deploy otimizado
 
-# Execute em modo de desenvolvimento
-npm run dev
-```
+## 🌐 **Deploy**
 
-O site estará disponível em [http://localhost:3000](http://localhost:3000)
+Site hospedado no Netlify com deploy automático via GitHub.
 
-### Scripts Disponíveis
+**URL de Produção**: [MathLearn](https://cordeiro-matematica.netlify.app/)
 
-```bash
-npm run dev          # Servidor de desenvolvimento
-npm run build        # Build de produção
-npm run start        # Servidor de produção
-npm run lint         # Verificar código com ESLint
-```
+## 📱 **Páginas Disponíveis**
 
-## 📁 Estrutura do Projeto
+- **/** - Página inicial com todas as seções educativas
+- **/lessons** - Catálogo de lições por categoria
+- **/exercises** - Exercícios interativos
+- **/about** - Sobre a plataforma
+- **/achievements** - Sistema de conquistas
+- **/demo** - Demonstração interativa
 
-```
-src/
-├── app/                # App Router do Next.js
-│   ├── layout.tsx     # Layout principal
-│   ├── page.tsx       # Página inicial
-│   └── globals.css    # Estilos globais
-├── components/        # Componentes React
-│   ├── Header.tsx     # Cabeçalho com navegação
-│   ├── Footer.tsx     # Rodapé
-│   ├── Hero.tsx       # Seção principal
-│   ├── FeaturesSection.tsx     # Recursos da plataforma
-│   ├── LevelsSection.tsx       # Níveis de ensino
-│   └── TestimonialsSection.tsx # Depoimentos
-└── public/           # Arquivos estáticos
-```
+## 🎓 **Para Estudantes**
 
-## 🎨 Design System
+- Explicações passo a passo de conceitos matemáticos
+- Exercícios práticos com soluções detalhadas
+- Contexto histórico fascinante
+- Aplicações no mundo real
+- Interface intuitiva e motivadora
 
-### Cores Principais
-- **Azul Primário**: `bg-blue-900` - Navegação e elementos principais
-- **Amarelo Destaque**: `bg-yellow-500` - Call-to-actions
-- **Cinza Neutro**: `bg-gray-50` - Backgrounds de seções
-- **Gradientes**: Azul para roxo em elementos especiais
+## �‍🏫 **Para Educadores**
 
-### Tipografia
-- **Títulos**: Font weight bold (700)
-- **Corpo**: Font weight normal (400)
-- **Destaques**: Font weight semibold (600)
-
-## 🚀 Próximos Passos
-
-### Funcionalidades Planejadas
-- [ ] Sistema de autenticação de usuários
-- [ ] Dashboard personalizado do estudante
-- [ ] Exercícios interativos com feedback em tempo real
-- [ ] Visualizações matemáticas com Three.js
-- [ ] Sistema de progressão e conquistas
-- [ ] Fórum da comunidade
-- [ ] Seção de história da matemática
-- [ ] Integração com plataformas de pagamento
-- [ ] App mobile com React Native
-- [ ] Sistema de relatórios para professores
-
-### Páginas a Desenvolver
-- [ ] `/lessons` - Catálogo de lições
-- [ ] `/exercises` - Exercícios práticos
-- [ ] `/history` - História da matemática
-- [ ] `/profile` - Perfil do usuário
-- [ ] `/achievements` - Sistema de conquistas
-- [ ] `/assessment` - Teste de nivelamento
-
-## 📊 Estatísticas do Projeto
-
-- **+50.000** estudantes ativos (projetado)
-- **+500** lições planejadas
-- **+10.000** exercícios interativos
-- **98%** taxa de satisfação projetada
-
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add: amazing feature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## 📞 Contato
-
-- **Email**: contato@mathlearn.com
-- **Website**: https://mathlearn.com
-- **Suporte**: (11) 9999-9999
+- Conteúdo estruturado e pedagogicamente organizado
+- Exemplos práticos para usar em aula
+- Contexto histórico para enriquecer o ensino
+- Aplicações reais para motivar estudantes
 
 ---
 
-Desenvolvido com ❤️ para democratizar o ensino de matemática no Brasil.
+**Desenvolvido com ❤️ para tornar a matemática mais acessível e interessante!**
