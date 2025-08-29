@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Calculator, Users, Brain } from 'lucide-react';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -28,12 +29,18 @@ const Hero = () => {
 
           {/* Botões de ação */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors">
+            <Link 
+              href="/demo"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
+            >
               Começar a Estudar
-            </button>
-            <button className="border border-slate-600 hover:bg-slate-800 px-8 py-4 rounded-lg font-semibold transition-colors">
+            </Link>
+            <Link 
+              href="/demo"
+              className="border border-slate-600 hover:bg-slate-800 px-8 py-4 rounded-lg font-semibold transition-colors"
+            >
               Explorar Conteúdo
-            </button>
+            </Link>
           </div>
 
           {/* Cards de recursos */}
