@@ -100,6 +100,40 @@ export default function LessonsPage() {
           description: 'Função do 1º grau, 2º grau, exponencial e logarítmica'
         }
       ]
+    },
+    {
+      id: 'avancado',
+      title: 'Nível Avançado',
+      subtitle: 'Graduação e Pós',
+      lessons: 156,
+      duration: '400 horas',
+      rating: 4.7,
+      students: 890,
+      color: 'bg-red-100 border-red-300',
+      iconColor: 'text-red-600',
+      topics: [
+        { 
+          id: 'calculo',
+          title: 'Cálculo Diferencial e Integral', 
+          lessons: 40, 
+          completed: Math.min(40, Array.from(completedLessons).filter(id => id.includes('calculo')).length),
+          description: 'Limites, derivadas, integrais e aplicações'
+        },
+        { 
+          id: 'algebra-linear',
+          title: 'Álgebra Linear', 
+          lessons: 30, 
+          completed: Math.min(30, Array.from(completedLessons).filter(id => id.includes('algebra-linear')).length),
+          description: 'Vetores, matrizes, sistemas lineares e transformações'
+        },
+        { 
+          id: 'estatistica-avancada',
+          title: 'Estatística Avançada', 
+          lessons: 25, 
+          completed: Math.min(25, Array.from(completedLessons).filter(id => id.includes('estatistica')).length),
+          description: 'Probabilidade, distribuições e inferência estatística'
+        }
+      ]
     }
   ];
 

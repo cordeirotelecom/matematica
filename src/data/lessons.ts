@@ -285,6 +285,280 @@ export const lessonsData: LessonContent[] = [
     },
     prerequisites: ['Álgebra básica', 'Operações com números reais'],
     nextLesson: 'ensino-medio-funcoes-2'
+  },
+
+  // FUNDAMENTAL I - Mais lições de Números e Operações
+  {
+    id: 'fundamental-1-numeros-3',
+    title: 'Subtração Simples',
+    description: 'Aprenda a subtrair números pequenos usando objetos e situações do dia a dia.',
+    duration: '30 min',
+    difficulty: 'Fácil',
+    category: 'fundamental-1',
+    topicId: 'numeros-operacoes',
+    objectives: [
+      'Entender o conceito de "tirar" como subtração',
+      'Resolver subtrações até 20',
+      'Usar objetos concretos para subtrair',
+      'Reconhecer o símbolo - e ='
+    ],
+    content: {
+      explanation: 'Subtrair significa tirar uma quantidade de outra. Quando tiramos algo, ficamos com menos do que tínhamos antes. Por exemplo, se você tem 5 doces e come 2, sobrarão 3 doces. Isso é uma subtração: 5 - 2 = 3.',
+      examples: [
+        {
+          title: 'Subtraindo brinquedos',
+          problem: 'Pedro tem 8 carrinhos. Ele deu 3 carrinhos para seu irmão. Quantos carrinhos Pedro tem agora?',
+          solution: [
+            'Pedro tinha 8 carrinhos',
+            'Deu 3 carrinhos para o irmão',
+            'Tiramos: 8 - 3',
+            'Contamos o que sobrou: 5 carrinhos',
+            'Pedro tem 5 carrinhos agora'
+          ],
+          tip: 'Use os dedos ou retire objetos reais para visualizar a subtração!'
+        }
+      ],
+      exercises: [
+        {
+          question: 'Quanto é 7 - 3?',
+          options: ['3', '4', '5', '6'],
+          answer: '4',
+          explanation: 'Começamos com 7, tiramos 3, sobram 4.'
+        },
+        {
+          question: 'Ana tinha 9 adesivos e perdeu 4. Quantos adesivos ela tem agora?',
+          options: ['4', '5', '6', '7'],
+          answer: '5',
+          explanation: 'Ana tinha 9 adesivos, perdeu 4. Então: 9 - 4 = 5 adesivos.'
+        }
+      ]
+    },
+    prerequisites: ['Adição Simples'],
+    nextLesson: 'fundamental-1-numeros-4'
+  },
+
+  // FUNDAMENTAL I - Geometria
+  {
+    id: 'fundamental-1-geometria-1',
+    title: 'Formas Geométricas Básicas',
+    description: 'Reconheça e identifique formas geométricas no mundo ao seu redor.',
+    duration: '35 min',
+    difficulty: 'Fácil',
+    category: 'fundamental-1',
+    topicId: 'geometria-basica',
+    objectives: [
+      'Identificar círculo, quadrado, triângulo e retângulo',
+      'Reconhecer formas no ambiente',
+      'Contar lados e vértices',
+      'Desenhar formas básicas'
+    ],
+    content: {
+      explanation: 'As formas geométricas estão em todo lugar! Na sua casa, na escola, nos brinquedos. Vamos aprender a reconhecer as formas mais comuns e entender suas características.',
+      examples: [
+        {
+          title: 'Formas na cozinha',
+          problem: 'Que formas você consegue encontrar na cozinha?',
+          solution: [
+            'Mesa: retângulo (4 lados)',
+            'Prato: círculo (redondo)',
+            'Janela: quadrado (4 lados iguais)',
+            'Fatia de pizza: triângulo (3 lados)'
+          ],
+          tip: 'Procure formas em objetos do dia a dia para praticar!'
+        }
+      ],
+      exercises: [
+        {
+          question: 'Quantos lados tem um triângulo?',
+          options: ['2', '3', '4', '5'],
+          answer: '3',
+          explanation: 'Um triângulo sempre tem 3 lados e 3 vértices (pontas).'
+        },
+        {
+          question: 'Qual forma não tem lados?',
+          options: ['Quadrado', 'Triângulo', 'Círculo', 'Retângulo'],
+          answer: 'Círculo',
+          explanation: 'O círculo é redondo e não tem lados nem vértices.'
+        }
+      ]
+    },
+    prerequisites: ['Contagem básica'],
+    nextLesson: 'fundamental-1-geometria-2'
+  },
+
+  // FUNDAMENTAL II - Mais álgebra
+  {
+    id: 'fundamental-2-algebra-2',
+    title: 'Expressões Algébricas',
+    description: 'Aprenda a trabalhar com expressões que contêm letras e números.',
+    duration: '45 min',
+    difficulty: 'Médio',
+    category: 'fundamental-2',
+    topicId: 'algebra',
+    objectives: [
+      'Compreender o que são expressões algébricas',
+      'Calcular o valor de expressões',
+      'Simplificar expressões simples',
+      'Aplicar em problemas práticos'
+    ],
+    content: {
+      explanation: 'Uma expressão algébrica é como uma "receita matemática" que mistura números e letras. As letras representam valores que podem mudar, como ingredientes em quantidades diferentes.',
+      examples: [
+        {
+          title: 'Calculando o perímetro',
+          problem: 'Um retângulo tem largura x e comprimento y. Qual é a expressão para o perímetro?',
+          solution: [
+            'Perímetro = soma de todos os lados',
+            'Retângulo tem: largura + comprimento + largura + comprimento',
+            'Isso é: x + y + x + y',
+            'Simplificando: 2x + 2y',
+            'Ou ainda: 2(x + y)'
+          ],
+          tip: 'Sempre agrupe termos semelhantes (que têm as mesmas letras)!'
+        }
+      ],
+      exercises: [
+        {
+          question: 'Se x = 3, qual é o valor de 2x + 5?',
+          options: ['8', '10', '11', '13'],
+          answer: '11',
+          explanation: 'Substituindo x = 3: 2(3) + 5 = 6 + 5 = 11'
+        }
+      ]
+    },
+    prerequisites: ['Introdução às Equações'],
+    nextLesson: 'fundamental-2-algebra-3'
+  },
+
+  // FUNDAMENTAL II - Geometria Plana
+  {
+    id: 'fundamental-2-geometria-1',
+    title: 'Área e Perímetro',
+    description: 'Aprenda a calcular área e perímetro de figuras geométricas.',
+    duration: '50 min',
+    difficulty: 'Médio',
+    category: 'fundamental-2',
+    topicId: 'geometria-plana',
+    objectives: [
+      'Diferenciar área de perímetro',
+      'Calcular área de retângulos e quadrados',
+      'Calcular perímetro de figuras',
+      'Aplicar em situações reais'
+    ],
+    content: {
+      explanation: 'Perímetro é como uma cerca ao redor da figura - é o contorno. Área é o espaço dentro da figura - como o terreno cercado. São conceitos diferentes mas igualmente importantes!',
+      examples: [
+        {
+          title: 'Calculando material para um jardim',
+          problem: 'Um jardim retangular tem 6m de comprimento e 4m de largura. Quanto de cerca precisa e qual a área?',
+          solution: [
+            'Perímetro (cerca): 6 + 4 + 6 + 4 = 20 metros',
+            'Ou usando fórmula: 2(6 + 4) = 2(10) = 20 metros',
+            'Área (terreno): 6 × 4 = 24 metros quadrados',
+            'Precisa de 20m de cerca para um jardim de 24m²'
+          ],
+          tip: 'Perímetro é soma dos lados, área é multiplicação base × altura!'
+        }
+      ],
+      exercises: [
+        {
+          question: 'Um quadrado tem lado de 5 cm. Qual sua área?',
+          options: ['20 cm²', '25 cm²', '30 cm²', '10 cm²'],
+          answer: '25 cm²',
+          explanation: 'Área do quadrado = lado × lado = 5 × 5 = 25 cm²'
+        }
+      ]
+    },
+    prerequisites: ['Formas geométricas', 'Multiplicação'],
+    nextLesson: 'fundamental-2-geometria-2'
+  },
+
+  // ENSINO MÉDIO - Mais funções
+  {
+    id: 'ensino-medio-funcoes-2',
+    title: 'Função do 1º Grau',
+    description: 'Entenda as características e aplicações da função do primeiro grau.',
+    duration: '60 min',
+    difficulty: 'Médio',
+    category: 'ensino-medio',
+    topicId: 'funcoes',
+    objectives: [
+      'Identificar funções do 1º grau',
+      'Construir gráficos lineares',
+      'Interpretar coeficientes angular e linear',
+      'Resolver problemas práticos'
+    ],
+    content: {
+      explanation: 'A função do 1º grau tem a forma f(x) = ax + b e representa uma linha reta. É muito usada para modelar situações onde há uma taxa constante de variação, como velocidade, custos fixos + variáveis, etc.',
+      examples: [
+        {
+          title: 'Conta de celular',
+          problem: 'Uma operadora cobra R$ 25,00 fixo + R$ 0,50 por minuto. Crie a função e calcule o custo para 100 minutos.',
+          solution: [
+            'Custo = valor fixo + (preço por minuto × minutos)',
+            'f(x) = 25 + 0,5x, onde x = minutos',
+            'Para 100 minutos: f(100) = 25 + 0,5(100)',
+            'f(100) = 25 + 50 = R$ 75,00',
+            'O coeficiente a = 0,5 é a taxa por minuto'
+          ],
+          tip: 'Em f(x) = ax + b: "a" é a inclinação da reta, "b" é onde ela corta o eixo y!'
+        }
+      ],
+      exercises: [
+        {
+          question: 'Na função f(x) = 3x - 2, qual é o coeficiente angular?',
+          options: ['-2', '3', '3x', '-2x'],
+          answer: '3',
+          explanation: 'Na forma f(x) = ax + b, o coeficiente angular é "a" = 3'
+        }
+      ]
+    },
+    prerequisites: ['Conceito de Função'],
+    nextLesson: 'ensino-medio-funcoes-3'
+  },
+
+  // NÍVEL AVANÇADO - Cálculo
+  {
+    id: 'avancado-calculo-1',
+    title: 'Introdução aos Limites',
+    description: 'Compreenda o conceito fundamental de limite em cálculo.',
+    duration: '70 min',
+    difficulty: 'Difícil',
+    category: 'avancado',
+    topicId: 'calculo',
+    objectives: [
+      'Compreender o conceito intuitivo de limite',
+      'Calcular limites simples',
+      'Interpretar limites graficamente',
+      'Aplicar em problemas de continuidade'
+    ],
+    content: {
+      explanation: 'Um limite descreve o comportamento de uma função quando a variável se aproxima de um determinado valor. É a base para derivadas e integrais, fundamentais para entender taxas de variação e áreas.',
+      examples: [
+        {
+          title: 'Velocidade instantânea',
+          problem: 'Como calcular a velocidade exata de um carro no instante t = 2 segundos?',
+          solution: [
+            'Velocidade média = distância/tempo',
+            'Para velocidade instantânea, tempo tende a zero',
+            'Usamos: lim(h→0) [s(2+h) - s(2)]/h',
+            'Onde s(t) é a função posição',
+            'Isso nos dá a derivada s\'(2)'
+          ],
+          tip: 'Limite é como "quase chegar" em um valor sem necessariamente alcançá-lo!'
+        }
+      ],
+      exercises: [
+        {
+          question: 'Calcule lim(x→2) (x² + 1):',
+          options: ['3', '4', '5', '6'],
+          answer: '5',
+          explanation: 'Substituindo x = 2: 2² + 1 = 4 + 1 = 5'
+        }
+      ]
+    },
+    prerequisites: ['Funções avançadas', 'Álgebra'],
+    nextLesson: 'avancado-calculo-2'
   }
 ];
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calculator, Clock, Target, Trophy, CheckCircle, AlertCircle } from 'lucide-react';
+import InteractiveExercisesList from '@/components/InteractiveExercisesList';
 
 const ExercisesPage = () => {
   const exerciseCategories = [
@@ -176,6 +177,12 @@ const ExercisesPage = () => {
                   </button>
                 </div>
               ))}
+            </div>
+
+            {/* Exercícios Interativos */}
+            <div className="mt-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Pratique Agora</h2>
+              <InteractiveExercisesList />
             </div>
           </div>
 
