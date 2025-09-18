@@ -27,7 +27,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link href="/lessons" className="text-gray-300 hover:text-white">Lições</Link></li>
               <li><Link href="/exercises" className="text-gray-300 hover:text-white">Exercícios</Link></li>
-              <li><Link href="/history" className="text-gray-300 hover:text-white">História</Link></li>
+              <li><Link href="/about" className="text-gray-300 hover:text-white">Sobre</Link></li>
               <li><Link href="/achievements" className="text-gray-300 hover:text-white">Conquistas</Link></li>
             </ul>
           </div>
@@ -36,10 +36,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Níveis</h4>
             <ul className="space-y-2">
-              <li><Link href="/lessons/elementary" className="text-gray-300 hover:text-white">Fundamental I</Link></li>
-              <li><Link href="/lessons/middle" className="text-gray-300 hover:text-white">Fundamental II</Link></li>
-              <li><Link href="/lessons/high-school" className="text-gray-300 hover:text-white">Ensino Médio</Link></li>
-              <li><Link href="/lessons/advanced" className="text-gray-300 hover:text-white">Avançado</Link></li>
+              <li><Link href="/lessons" className="text-gray-300 hover:text-white">Fundamental I</Link></li>
+              <li><Link href="/lessons" className="text-gray-300 hover:text-white">Fundamental II</Link></li>
+              <li><Link href="/lessons" className="text-gray-300 hover:text-white">Ensino Médio</Link></li>
+              <li><Link href="/lessons" className="text-gray-300 hover:text-white">Avançado</Link></li>
             </ul>
           </div>
 

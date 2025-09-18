@@ -103,7 +103,7 @@ const LevelsSection = () => {
 
               {/* Call to action */}
               <Link 
-                href={`/lessons/${level.id}`}
+                href="/lessons"
                 className="w-full bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold flex items-center justify-center space-x-2 transition-colors"
               >
                 <span>Começar Agora</span>

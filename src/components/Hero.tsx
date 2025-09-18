@@ -30,16 +30,16 @@ const Hero = () => {
           {/* Botões de ação */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href="/demo"
+              href="/lessons"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
             >
               Começar a Estudar
             </Link>
             <Link 
-              href="/demo"
+              href="/exercises"
               className="border border-slate-600 hover:bg-slate-800 px-8 py-4 rounded-lg font-semibold transition-colors"
             >
-              Explorar Conteúdo
+              Explorar Exercícios
             </Link>
           </div>
 
